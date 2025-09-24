@@ -11,12 +11,15 @@
     <meta property="og:description" content="Roland Zogbay’s professional resume webpage showcasing skills, education, projects, and contact information. Built with HTML & CSS." />
     <meta property="og:type" content="portfolio" />
     <title>Roland CV</title>
+
+    <!-- Link to custom css file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="left-content">
             <div class="top-content">
-                <img src="./assets/profile1.jpg" alt="Roland's profile picture" width="300" height="300">
+                <img src="./assets/profile1.jpg" id="profile-img" alt="Roland's profile picture">
                 <h1>Roland <span class="last-name">Zogbay</span></h1>
                 <span class="title">FullStack Web Developer</span>
             </div>
@@ -26,31 +29,37 @@
                 <p><a href="malto:rzogbay@gmail.com">rzogbay@gmail.com</a></p>
             </div>
             <div class="bottom-content">
-                <h1>Sills</h1>
-                <ul>
-                    <h2>Soft Skills</h2>
-                    <li>Team Work</li>
-                    <li>Networking</li>
-                    <li>Project management</li>
-                    <li>Critical Thinking</li>
-                    <li>Problem Solving</li>
-                </ul>
-                <ol>
-                    <h2>Technical Skills</h2>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>Front & Backend Developer</li>
-                </ol>
-                <ul>
-                    <h2>My Hobbies</h2>
-                    <li>Tourism</li>
-                    <li>Animal Lover</li>
-                    <li>Tennis</li>
-                    <li>Basketball</li>
-                    <li>Football</li>
-                </ul>
+                <h1>Skills</h1>
+                <div class="soft-skills">
+                    <ul>
+                        <h2>Soft Skills</h2>
+                        <li>Team Work</li>
+                        <li>Networking</li>
+                        <li>Project management</li>
+                        <li>Critical Thinking</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+                <div class="technical-skills">
+                    <ol>
+                        <h2>Technical Skills</h2>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Front & Backend Developer</li>
+                    </ol>
+                </div>
+                <div class="hobbies">
+                    <ul>
+                        <h2>My Hobbies</h2>
+                        <li>Tourism</li>
+                        <li>Animal Lover</li>
+                        <li>Tennis</li>
+                        <li>Basketball</li>
+                        <li>Football</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
